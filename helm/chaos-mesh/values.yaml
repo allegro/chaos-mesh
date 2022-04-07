@@ -199,6 +199,13 @@ chaosDaemon:
 
   affinity: {}
 
+  # Specify DaemonSetUpdateStrategy for chaos-daemon
+  updateStrategy: {}
+    # Example update strategy:
+    # type: RollingUpdate
+    # rollingUpdate:
+    #   maxUnavailable: 33%
+
 dashboard:
   rootUrl: http://localhost:2333
   create: true
