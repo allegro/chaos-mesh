@@ -19,7 +19,7 @@ require (
 	github.com/chaos-mesh/k8s_dns_chaos v0.2.0
 	github.com/containerd/cgroups v1.0.2-0.20210605143700-23b51209bf7b
 	github.com/containerd/containerd v1.5.10
-	github.com/docker/docker v20.10.7+incompatible
+	github.com/docker/docker v24.0.9+incompatible
 	github.com/ethereum/go-ethereum v1.10.2
 	github.com/fatih/color v1.9.0
 	github.com/ghodss/yaml v1.0.0
